@@ -78,7 +78,91 @@
 .theatre {
     width: 100%;
     height: 100vh;
-    background-color: gray;
+    background: #333333;
+}
+
+.colorYell {
+    color: #D1A954;
+}
+.oTheatre {
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+.main-theatre {
+    display: flex;
+    width: 70%;
+    height: 49vh;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.oTheatreText {
+    width: 40%;
+    /* border: solid 3px blue; */
+    margin-right: 2.5%;
+}
+.oTheatreInfo{
+    width: 23%;
+    margin-right: 2.5%;
+}
+.oTheatrePicture{
+    width: 32%;
+    /* border: solid 3px yellow; */
+}
+.oTextH {
+    font-size: 1vw;
+}
+.oText {
+    /* font-size: 14px; */
+    font-size: 1.82vh;
+    margin-top: 5%;
+}
+.img-oTeatre {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 15%;
+}
+.info {
+    height: 85%;
+    margin-top: 10%;
+}
+.cheaInfo {
+    height: 40%;
+    width: 100%;
+    /* border: solid 3px yellow; */
+}
+.cheaImg {
+    width: 75px;
+    height: 75px;
+    /* border: solid 3px green; */
+}
+.img-chea {
+    width: 100%;
+    height: 100%;
+}
+.cheaText {
+    font-weight: bold;
+    font-size: 1.2vw;
+    margin-top: 10%;
+}
+
+.earInfo {
+    height: 50%;
+    width: 100%;
+}
+
+@media (max-width: 1558px) {
+    .oText {
+        font-size: 1.5vh;
+        margin-top: 15%;
+    }
+
+    .info {
+        margin-top: 20%;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -88,6 +172,34 @@
 
     .main-p {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .cheaImg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .oText {
+        font-size: 1.35vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    .cheaImg {
+        width: 65px;
+        height: 65px;
+    }
+
+    .oTextH {
+        font-size: 1.8vh;
+    }
+}
+
+@media (max-width: 1060px) {
+    .oText {
+        font-size: 1.31vh;
     }
 }
 
@@ -108,7 +220,7 @@
         height: 49vh;
         /* border: solid 3px red; */
         margin: 0 auto;
-        margin-top: 40%;
+        margin-top: 30%;
     }
 
     .main-header {
@@ -117,5 +229,170 @@
 
     .main-p {
         font-size: 16px;
+    }
+
+    .img-oTeatre {
+        display: none;
+    }
+    .oTheatreText {
+        width: 70%;
+        margin-right: 5%;
+    }
+    .oTheatreInfo{
+        width: 25%;
+        position: absolute;
+        right: 100px;
+    }
+    .oText {
+        font-size: 1.7vh;
+    }
+    .oTextH {
+        font-size: 2.3vh;
+    }
+    .info {
+        margin-top: 27%;
+    }
+    .earInfo {
+        height: 40%;
+        margin-top: 10%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 915px) {
+
+    .main-theatre {
+        width: 90%;
+    }
+
+    .oTheatreInfo {
+        right: 40px;
+    }
+    .info {
+        margin-top: 35%;
+    }
+}
+
+@media (max-width: 875px) {
+    .cheaText {
+        font-size: 1.5vw;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    .oTheatreInfo {
+        width: 30%;
+        right: 20px;
+    }
+    .info {
+        margin-top: 30%;
+    }
+    .cheaText {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 720px) {
+    .oText {
+        font-size: 1.4vh;
+    }
+    .info {
+        margin-top: 20%;
+    }
+    .oTheatreInfo {
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 665px) {
+    .oTextH {
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .main-text {
+        width: 100%;
+        height: 75%;
+        margin-top: 5%;
+    }
+
+    .main-content {
+        margin-top: 25%;
+    }
+
+    .main-header {
+        font-size: 46px;
+    }
+
+    .main-p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 590px) {
+    .oText {
+        font-size: 1.3vh;
+    }
+}
+
+@media (max-width: 580px) {
+    .main-theatre {
+        display: block;
+        width: 70%;
+        height: 49vh;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .oTheatreText {
+        width: 100%;
+    }
+    .oText {
+        font-size: 1.6vh;
+        margin-top: 5%;
+    }
+    .oTheatreInfo {
+        width: 100%;
+        right: 0;
+        position: relative;
+    }
+    .info {
+        display: flex;
+        margin-top: 10%;
+    } 
+    .earInfo {
+    height: 40%;
+    margin-top: 10%;
+    width: 100%;
+    }
+    .earInfo {
+        height: 40%;
+        margin-top: 0%;
+        width: 100%;
+    }
+    .main-theatre {
+        width: 70%;
+        height: 55vh;
+        margin-top: 5%;
+    }
+    
+    .oTextH {
+        text-align: center;
+        font-size: 2.8vh;
+    }
+    .cheaImg {
+        margin: 0 auto;
+    }
+    .cheaText {
+        text-align: center;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .main-content {
+        margin-top: 15%;
     }
 }
