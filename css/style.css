@@ -152,6 +152,7 @@
 .earInfo {
     height: 50%;
     width: 100%;
+    margin-top: 8%;
 }
 
 @media (max-width: 1558px) {
@@ -184,6 +185,9 @@
     .oText {
         font-size: 1.35vh;
     }
+    .earInfo {
+        margin-top: 0%;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -194,6 +198,10 @@
 
     .oTextH {
         font-size: 1.8vh;
+    }
+
+    .img-oTeatre {
+        margin-top: 25%;
     }
 }
 
