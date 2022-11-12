@@ -28,7 +28,7 @@
     width: 52%;
     margin-right: 12%;
     height: 75%;
-    margin-top: 5%;
+    margin-top: 2%;
     /* border: solid 3px blue; */
 }
 .main-header {
@@ -157,8 +157,12 @@
 
 @media (max-width: 1558px) {
     .oText {
-        font-size: 1.5vh;
+        font-size: 1.82vh;
         margin-top: 15%;
+    }
+
+    .oTextH {
+        font-size: 1.5vw;
     }
 
     .info {
@@ -172,7 +176,7 @@
     }
 
     .main-p {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -183,7 +187,8 @@
     }
 
     .oText {
-        font-size: 1.35vh;
+        font-size: 1.55vh;
+        
     }
     .earInfo {
         margin-top: 0%;
@@ -207,13 +212,17 @@
 
 @media (max-width: 1060px) {
     .oText {
-        font-size: 1.31vh;
+        font-size: 1.4vh;
     }
 }
 
 @media (max-width: 992px) {
     .main-picture {
         display: none;
+    }
+
+    .cheaText {
+        font-size: 1.7vw;
     }
 
     .main-text {
@@ -228,7 +237,7 @@
         height: 49vh;
         /* border: solid 3px red; */
         margin: 0 auto;
-        margin-top: 30%;
+        margin-top: 15%;
     }
 
     .main-header {
@@ -252,7 +261,7 @@
         right: 100px;
     }
     .oText {
-        font-size: 1.7vh;
+        font-size: 1.82vh;
     }
     .oTextH {
         font-size: 2.3vh;
@@ -270,7 +279,7 @@
 @media (max-width: 915px) {
 
     .main-theatre {
-        width: 90%;
+        width: 92%;
     }
 
     .oTheatreInfo {
@@ -283,7 +292,7 @@
 
 @media (max-width: 875px) {
     .cheaText {
-        font-size: 1.5vw;
+        font-size: 1.75vw;
     }
     
 }
@@ -297,13 +306,22 @@
         margin-top: 30%;
     }
     .cheaText {
-        font-size: 1.5vw;
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 735px) {
+    .cheaText {
+        font-size: 2.3vw;
+    }
+    .oText {
+        font-size: 1.955vh;
     }
 }
 
 @media (max-width: 720px) {
     .oText {
-        font-size: 1.4vh;
+        font-size: 1.9vh;
     }
     .info {
         margin-top: 20%;
@@ -342,7 +360,7 @@
 
 @media (max-width: 590px) {
     .oText {
-        font-size: 1.3vh;
+        font-size: 1.6vh;
     }
 }
 
@@ -354,11 +372,18 @@
         margin: 0 auto;
         margin-top: 5%;
     }
+    .cheaImg {
+        width: 95px;
+        height: 75px;
+    }
+    .cheaText {
+        font-size: 3.5vw;
+    }
     .oTheatreText {
         width: 100%;
     }
     .oText {
-        font-size: 1.6vh;
+        font-size: 1.88vh;
         margin-top: 5%;
     }
     .oTheatreInfo {
