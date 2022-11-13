@@ -7,7 +7,9 @@
     background-size: cover;
     background-attachment: fixed;
 }
-
+.scrol_content {
+    padding-bottom: 0 !important;
+}
 .nav-link {
     font-size: 17px;
 }
