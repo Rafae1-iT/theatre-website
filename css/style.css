@@ -892,8 +892,24 @@
     .num {
         margin-top: 130px;
     }
+    
     .theatre {
         height: 520vh;
+    }
+    @media (max-height: 750px) {
+        .theatre {
+            height: 535vh;
+        }
+    }
+    @media (max-height: 680px) {
+        .theatre {
+            height: 540vh;
+        }
+    }
+    @media (max-height: 650px) {
+        .theatre {
+            height: 550vh;
+        }
     }
 }
 
