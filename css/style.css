@@ -22,7 +22,7 @@
     height: 49vh;
     /* border: solid 3px red; */
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 20vh;
 }
 
 .main-text {
@@ -37,6 +37,7 @@
 }
 .main-p {
     margin-top: 10%;
+    font-size: 2.3vh;
 }
 .main-button {
     margin-top: 5%;
@@ -78,7 +79,7 @@
 
 .theatre {
     width: 100%;
-    height: 400vh;
+    height: 385vh;
     background: #333333;
 }
 
@@ -158,7 +159,7 @@
 }
 
 .post {
-    margin-top: 5%;
+    margin-top: 15vh;
 }
 
 .post-imgs {
@@ -288,6 +289,101 @@
     background-size: cover;
     background-size: 100% 100%;
 }
+.main-mc {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 5%;
+    height: 40vh;
+    display: flex;
+}
+.num {
+    height: 100%;
+    width: 30%;
+}
+.nums {
+    color: #ffffff;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 5%;
+}
+.inpt {
+    width: 70%;
+    height: 100%;
+}
+.inputs {
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.inpt-info {
+    width: 60%;
+    height: 100%;
+    margin-right: 5%;
+}
+.sms {
+    width: 35%;
+    height: 92%;
+}
+.in1 {
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+.in2 {
+    width: 100%;
+    height: 45%;
+    margin-top: 5%;
+    display: flex;
+}
+.in-nm {
+    width: 45%;
+    height: 65%;
+    margin-right: 10%;
+}
+.in-comp {
+    width: 45%;
+    height: 65%;
+}
+.ii {
+    width: 100%;
+    height: 100%;
+    background: #444444;
+    border: 1px solid #616161;
+    color: #ffffff;
+}
+.insms {
+    width: 100%;
+    height: 100%;
+}
+.textButton {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.inTtx {
+    height: 100%;
+    width: 60%;
+    color:#989898;
+}
+.inBut {
+    width: 30%;
+    margin-left: 10%;
+}
+.inBtn {
+    margin-top: 7%;
+    margin-left: 15%;
+    background: #D1A954;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    width: 60%;
+    height: 50px;
+}
+.nn {
+    width: 100%;
+}
+
 @media (max-width: 1558px) {
     .oText {
         font-size: 1.82vh;
@@ -309,7 +405,7 @@
     }
 
     .main-p {
-        font-size: 15px;
+        font-size: 2.3vh;
     }
 }
 
@@ -417,7 +513,7 @@
         height: 49vh;
         /* border: solid 3px red; */
         margin: 0 auto;
-        margin-top: 15%;
+        margin-top: 20vh;
     }
 
     .main-header {
@@ -425,7 +521,7 @@
     }
 
     .main-p {
-        font-size: 16px;
+        font-size: 2.3vh;
     }
 
     .img-oTeatre {
@@ -454,6 +550,45 @@
         margin-top: 10%;
         width: 100%;
     }
+    .theatre {
+        height: 470vh;
+    }
+    .main-mc {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 10%;
+        height: 65vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .inpt {
+        width: 100%;
+        height: 100%;
+    }
+    .num {
+        height: 30%;
+        width: 100%;
+        display: flex;
+    }
+    
+    .inBut {
+        width: 30%;
+        margin-left: 10%;
+        height: 73%;
+    }
+    .inTtx {
+        height: 72%;
+    }
+    .sms {
+        height: 70%;
+    }
+    .inpt-info {
+        height: 80%;
+    }
+    .inputs {
+        height: 50%;
+    }
+    
 }
 
 @media (max-width: 915px) {
@@ -489,6 +624,35 @@
         font-size: 1.8vw;
     }
 }
+@media (max-width: 768px) {
+    .post {
+        margin-top: 25%;
+    }
+    .inBtn {
+        width: 80%;
+    }
+    .inTtx {
+        height: 72%;
+        margin-top: 30px;
+    }
+    .textButton {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .inTtx {
+        width: 100%;
+    }
+    .inBut {
+        width: 60%;
+        margin: 0 auto;
+        height: 73%;
+    }
+    .inBtn {
+        margin-left: 10%;
+    }
+}
 
 @media (max-width: 735px) {
     .cheaText {
@@ -514,11 +678,6 @@
     }
 }
 
-@media (max-width: 695px) {
-    .post {
-        margin-top: 10%;
-    }
-}
 
 @media (max-width: 665px) {
     .oTextH {
@@ -539,7 +698,16 @@
 }
 
 @media (max-width: 600px) {
-
+    @media (max-height: 850px) {
+        .theatre {
+            height: 500vh;
+        }
+    }
+    @media (max-height: 750px) {
+        .theatre {
+            height: 510vh;
+        }
+    }
     .main-text {
         width: 100%;
         height: 75%;
@@ -555,17 +723,23 @@
     }
 
     .main-p {
-        font-size: 15px;
+        font-size: 2.1vh;
     }
 }
 
 @media (max-width: 590px) {
     .post {
-        margin-top: 20%;
+        margin-top: 40%;
     }
 }
 
 @media (max-width: 580px) {
+    .main-mc {
+        margin-top: 25%;
+    }
+    .nums {
+        height: 50%;
+    }
     .main-theatre {
         display: block;
         width: 70%;
@@ -623,6 +797,27 @@
     .cheaText {
         text-align: center;
     }
+    .inputs {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .inpt-info {
+        width: 100%;
+    }
+    .sms {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .inBut {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .num {
+        margin-top: 80px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -643,12 +838,31 @@
         height: 90vh;
     }
     .post {
-        margin-top: 5%;
+        margin-top: 15%;
         margin-bottom: 7vh;
     }
     .prts {
         width: 100%;
         margin-top: 6vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .theatre {
+        height: 500vh;
+    }
+    .main-mc {
+        margin-top: 30%;
+    }
+}
+@media (max-width: 435px) {
+    .post {
+        margin-top: 60%;
+    }
+    @media (max-height: 1000px) {
+        .post {
+            margin-top: 10%;
+        }
     }
 }
 
@@ -658,8 +872,41 @@
     }
 }
 
+@media (max-width: 395px) {
+    .main-mc {
+        margin-top: 40vh;
+    }
+    @media (max-height: 860px) {
+        .main-mc {
+            margin-top: 25vh;
+        }
+    }
+    @media (max-height: 745px) {
+        .main-mc {
+            margin-top: 35vh;
+        }
+    }
+    .textButton {
+        margin-top: 20px;
+    }
+    .num {
+        margin-top: 130px;
+    }
+    .theatre {
+        height: 520vh;
+    }
+}
+
 @media (max-width: 380px) {
 
+    @media (max-height: 720px) {
+        .theatre {
+            height: 540vh;
+        }
+    }
+    /* .theatre {
+        height: 540vh;
+    } */
     .main-content {
         margin-top: 15%;
     }
@@ -673,5 +920,17 @@
     .oTextH {
         text-align: center;
         font-size: 2.5vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .post {
+        margin-top: 80%;
+    }
+}
+
+@media (max-width: 330px) {
+    .main-mc {
+        margin-top: 60%;
     }
 }
